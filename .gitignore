@@ -64,4 +64,5 @@ dist
 package-lock.json
 *.xml
 **/cfg/**
+Config/
 #test-cases/
