@@ -1,0 +1,20 @@
+{
+  "name": "botium-connector-google-assistant-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "init-google": "botium-connector-google-assistant-init",
+    "test": "mocha spec"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "botium-bindings": "latest",
+    "botium-connector-google-assistant": "../../"
+  }
+}

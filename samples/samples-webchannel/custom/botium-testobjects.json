@@ -1,0 +1,19 @@
+{
+  "botium": {
+    "Capabilities": {
+      "WEBDRIVERIO_OPTIONS": {	
+				"capabilities": {
+          "platformName": "Android",
+          "platformVersion": "9",
+          "testobject_api_key": "..."
+        },
+        "protocol": "https",
+        "hostname": "appium.testobject.com",
+        "port": 443,
+        "path": "/wd/hub"
+      },
+      "WAITFORBOTTIMEOUT": 30000,
+      "WEBDRIVERIO_START_CHROMEDRIVER": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Botium Logichooks Sample",
+      "CONTAINERMODE": "echo",
+      "ASSERTERS": [
+        {
+          "ref": "MYASSERTER",
+          "src": "./custom/MyAsserter.js",
+          "global": true
+        },
+        {
+          "ref": "INLINEASSERTER",
+          "global": true
+        }
+      ]
+    }
+  }
+}

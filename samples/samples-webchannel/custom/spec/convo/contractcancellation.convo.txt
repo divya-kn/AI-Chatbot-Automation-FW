@@ -1,0 +1,14 @@
+contractcancellation
+
+#me
+Hallo
+
+#bot
+Hallo und willkommen
+
+#me
+Ich möchte kündigen
+
+#bot
+Möchten Sie ein Mobilfunk- oder ein Festnetz-Produkt kündigen?
+BUTTONS Mobilfunk-Produkt|Festnetz-Produkt

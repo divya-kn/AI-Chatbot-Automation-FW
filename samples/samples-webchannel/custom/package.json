@@ -1,0 +1,23 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha spec",
+    "test-appium": "cross-env BOTIUM_CONFIG=botium-testobjects.json mocha spec",
+    "test-perfecto": "cross-env BOTIUM_CONFIG=botium-perfectolabs.json mocha spec"
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-webdriverio": "../../",
+    "botium-logichook-perfectoreporting": "latest",
+    "cross-env": "^7.0.0",
+    "mocha": "latest"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false
+  }
+}

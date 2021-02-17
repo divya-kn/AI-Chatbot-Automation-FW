@@ -1,0 +1,41 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "WebdriverIO Plugin Sample",
+      "CONTAINERMODE": "webdriverio",
+      "WAITFORBOTTIMEOUT": 999999,
+      "CLEANUPTEMPDIR": true,
+      "WEBDRIVERIO_OPENBOTPAUSE": 2000,
+      "WEBDRIVERIO_INPUT_ELEMENT_VISIBLE_TIMEOUT": 30000,
+      "WEBDRIVERIO_LOGIN": "//header/div[1]/button[1]",
+      "WEBDRIVERIO_AUTHENTICATION": "//body/form[@id='aspnetForm']/div[@id='s4-workspace']/div[@id='s4-bodyContainer']/div[@id='s4-titlerow']/div[1]/div[1]/ng-form[1]/div[1]/exelon-decorator-simple[1]/div[1]/div[1]/div[1]/button[1]",
+      "WEBDRIVERIO_USERNAME": "#Username",
+      "WEBDRIVERIO_PASSWORD": "#Password",
+      "WEBDRIVERIO_URL": "http://azstage.atlanticcityelectric.com/Pages/default.aspx",
+      "WEBDRIVERIO_INPUT_ELEMENT": ".oda-chat-user-input",
+      "WEBDRIVERIO_INPUT_ELEMENT_SENDBUTTON": ".oda-chat-button-send",
+      "WEBDRIVERIO_INPUT_NAVIGATION_BUTTONS": [
+        ".oda-chat-button-icon",
+        ".oda-chat-button-icon"
+      ],
+      "WEBDRIVERIO_CHATBOT_ICON": ".oda-chat-button-icon",
+      "WEBDRIVERIO_OUTPUT_ELEMENT": ".oda-chat-left",
+      "WEBDRIVERIO_OUTPUT_ELEMENT_TEXT": ".oda-chat-message-content",
+      "WEBDRIVERIO_OUTPUT_ELEMENT_BUTTONS": ".oda-chat-action-postback",
+      "WEBDRIVERIO_OUTPUT_ELEMENT_HASH": "TEXT",
+      "WEBDRIVERIO_START_CHROMEDRIVER": true,
+      "WEBDRIVERIO_IGNOREWELCOMEMESSAGES": 0,
+      "WEBDRIVERIO_OUTPUT_ELEMENT_DEBUG_HTML": true,
+      "SCRIPTING_ENABLE_MEMORY": true,
+      "WEBDRIVERIO_CHROME_ARG": [
+        "--disable-gpu",
+        "--window-size=1800,900",
+        "--headless",
+        "--no-sandbox"
+      ],
+      "LOGIN": true,
+      "USERNAME": "TELSEYLLC1",
+      "PASSWORD": "Password1"
+    }
+  }
+}
